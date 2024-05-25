@@ -5,7 +5,7 @@ import { BiCartAdd, BiSearch, BiUserCircle } from "react-icons/bi";
 const Navbar = () => {
   return (
     <nav>
-      <div className="container mx-auto">
+      <div className="container max-w-5xl mx-auto">
         <div className="flex items-center justify-between py-5">
           <div className="flex items-center gap-3">
             <img
