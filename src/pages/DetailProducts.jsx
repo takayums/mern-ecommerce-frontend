@@ -4,6 +4,8 @@ import { IoShareSocialOutline } from "react-icons/io5";
 import { IoMdStar } from "react-icons/io";
 import { Tshirt } from "../assets";
 import { BiHeart } from "react-icons/bi";
+import { TfiMore } from "react-icons/tfi";
+import { FaRegStar } from "react-icons/fa";
 
 const DetailProducts = () => {
   return (
@@ -113,6 +115,117 @@ const DetailProducts = () => {
             <p className="text-sm text-gray-500 mt-3">
               — Free shipping on orders $100+
             </p>
+          </div>
+        </div>
+
+        <div className="mt-10 flex gap-8">
+          <div className="basis-60 flex gap-4 flex-col">
+            <button className="flex items-center gap-4 px-6 py-2 rounded-lg bg-gray-200 font-medium text-base">
+              <TfiMore />
+              Details
+            </button>
+            <button className="flex items-center gap-4 px-6 py-2 rounded-lg font-medium text-base">
+              <FaRegStar />
+              Reviews
+            </button>
+          </div>
+          <div className="grow">
+            <p className="font-medium text-base mb-6">Detail</p>
+            <p className="text-sm text-gray-500 leading-5 mb-14">
+              Elevate your everyday style with our Men's Black T-Shirts, the
+              ultimate wardrobe essential for modern men. Crafted with
+              meticulous attention to detail and designed for comfort, these
+              versatile black tees are a must-have addition to your collection.
+              The classic black color never goes out of style. Whether you're
+              dressing up for a special occasion or keeping it casual, these
+              black t-shirts are the perfect choice, effortlessly complementing
+              any outfit.
+            </p>
+            <ul className="list-disc text-gray-500">
+              <li>Premium Quality</li>
+              <li>Versatile Wardrobe Staple</li>
+              <li>Available in Various Sizes</li>
+              <li>Tailored Fit</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-20">
+          <h3 className="font-bold text-2xl mb-2">You might also like</h3>
+          <p className="text-sm text-gray-400 uppercase">similar products</p>
+          <div className="mt-14 grid grid-cols-4 gap-5">
+            <div className="py-4 px-2">
+              <div className="w-full rounded bg-gray-200 mb-6">
+                <img
+                  src={Tshirt}
+                  alt="Tshirt"
+                  className="w-full object-cover object-center"
+                />
+              </div>
+              <div>
+                <p className="text-sm font-medium mb-3">
+                  Classic Monochrome Tees
+                </p>
+                <span className="px-4 py-1 mr-4 rounded-full border border-gray-300 text-sm uppercase">
+                  In Stock
+                </span>
+                <span className="text-base text-gray-600">$35.00</span>
+              </div>
+            </div>
+            <div className="py-4 px-2">
+              <div className="w-full rounded bg-gray-200 mb-6">
+                <img
+                  src={Tshirt}
+                  alt="Tshirt"
+                  className="w-full object-cover object-center"
+                />
+              </div>
+              <div>
+                <p className="text-sm font-medium mb-3">
+                  Classic Monochrome Tees
+                </p>
+                <span className="px-4 py-1 mr-4 rounded-full border border-gray-300 text-sm uppercase">
+                  In Stock
+                </span>
+                <span className="text-base text-gray-600">$35.00</span>
+              </div>
+            </div>
+            <div className="py-4 px-2">
+              <div className="w-full rounded bg-gray-200 mb-6">
+                <img
+                  src={Tshirt}
+                  alt="Tshirt"
+                  className="w-full object-cover object-center"
+                />
+              </div>
+              <div>
+                <p className="text-sm font-medium mb-3">
+                  Classic Monochrome Tees
+                </p>
+                <span className="px-4 py-1 mr-4 rounded-full border border-gray-300 text-sm uppercase">
+                  In Stock
+                </span>
+                <span className="text-base text-gray-600">$35.00</span>
+              </div>
+            </div>
+            <div className="py-4 px-2">
+              <div className="w-full rounded bg-gray-200 mb-6">
+                <img
+                  src={Tshirt}
+                  alt="Tshirt"
+                  className="w-full object-cover object-center"
+                />
+              </div>
+              <div>
+                <p className="text-sm font-medium mb-3">
+                  Classic Monochrome Tees
+                </p>
+                <span className="px-4 py-1 mr-4 rounded-full border border-gray-300 text-sm uppercase">
+                  In Stock
+                </span>
+                <span className="text-base text-gray-600">$35.00</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

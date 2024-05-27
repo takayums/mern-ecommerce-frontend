@@ -1,6 +1,7 @@
 import React from "react";
 import { Logo } from "../assets";
 import { BiCartAdd, BiSearch, BiUserCircle } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -17,16 +18,16 @@ const Navbar = () => {
           </div>
           <ul className="flex items-center gap-8 text-base text-gray-500">
             <li>
-              <a href="#">Hoome</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#">Categories</a>
+              <Link to="categories">Categories</Link>
             </li>
             <li>
-              <a href="#">About</a>
+              <Link to="about">About</Link>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <Link to="contacts">Contact</Link>
             </li>
           </ul>
           <div className="flex items-center gap-5">

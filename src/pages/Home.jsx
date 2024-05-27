@@ -252,28 +252,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="bg-gray-300">
-        <div className="container mx-auto max-w-[1116px] flex items-center justify-between p-14">
-          <div className="basis-1/2">
-            <h3 className="text-2xl capitalize font-bold mb-6">
-              Joint Our Newslatter
-            </h3>
-            <p className="font-normal text-sm text-gray-500">
-              We love to surprise our subscribers with occasional gifts.
-            </p>
-          </div>
-          <div>
-            <input
-              type="email"
-              placeholder="Your email address"
-              className="px-4 py-3 rounded-md text-sm mr-4"
-            />
-            <button className="text-sm font-medium text-white px-4 py-3 bg-black rounded-md">
-              Subscribe
-            </button>
-          </div>
-        </div>
-      </div>
     </section>
   );
 };
